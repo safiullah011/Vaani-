@@ -1,0 +1,7 @@
+streamlit>=1.36
+numpy
+psutil
+requests
+faster-whisper>=1.0.3     # CPU baseline for speech-to-text
+onnxruntime>=1.18         # on Snapdragon X: use the onnxruntime-qnn build (see README)
+soundfile
